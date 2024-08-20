@@ -1,0 +1,101 @@
+.blog-wrap {
+    background: #FFFBF6;
+    padding: 30px;
+    position: relative;
+    margin: 4% 7%;
+  }
+  
+  .blog-wrap,
+  .blog-wrap::before{
+    /* Styles to distinguish sheets from one another */
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+  }
+  
+  .blog-wrap::before{
+    content: "";
+    position: absolute;
+    height: 95%;
+    width: 99%;
+    background-color: #F2884B;
+  }
+  
+  .blog-wrap::before {
+    right: 15px;
+    bottom: 22px;
+    transform: rotate(-2deg);
+    z-index: -1;
+  }
+
+  h2{
+    margin-top: -55px;
+    font-weight: 700;
+    font-size: 50px;
+    -webkit-text-stroke: 1px white;
+  }
+
+  small{
+    font-size: 16px;
+    margin: 20px 0;
+  }
+
+  p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 2rem;
+  }
+
+  .event-head-wrap {
+    background: #FFFBF6;
+    padding: 30px;
+    position: relative;
+    margin: 9% 7%;
+  }
+  
+  .event-head-wrap,
+  .event-head-wrap::before{
+    /* Styles to distinguish sheets from one another */
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+  }
+  
+  .event-head-wrap::before{
+    content: "";
+    position: absolute;
+    height: 95%;
+    width: 99%;
+    background-color: #95DD7A;
+  }
+  
+  .event-head-wrap::before {
+    right: 16px;
+    bottom: 14px;
+    transform: rotate(1deg);
+    z-index: -1;
+  }
+
+  .event-head-wrap > small{
+    margin: 0;
+  }
+
+  .event-head-wrap > p{
+    margin: 0;
+  }
+
+  .event-head-wrap > .btn{
+    margin: 2%;
+    background-color: #F2884B;
+    color: white;
+    border: none;
+    width: 100%;
+  }
+
+  .bloglist-wrap{
+    padding-bottom: 30px;
+  }
+
+  .post-wrap{
+    height: 100vh;
+  }
+
+  .badgeimg{
+    width: 250px;
+  }
